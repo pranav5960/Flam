@@ -14,13 +14,16 @@ Built with Next.js 14+ (App Router) & TypeScript
 ## Controls
 
 FilterPanel – Dynamically adjust visible data points
+
 TimeRangeSelector – Select custom time ranges (1m, 5m, 1h, etc.)
 
 
 ## Data Table
 
 Virtualized scrolling for 100K+ rows
+
 Displays timestamp and value
+
 Smooth performance even with large datasets
 
 
