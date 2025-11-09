@@ -1,16 +1,16 @@
-### Real-Time Performance Dashboard
+# Real-Time Performance Dashboard
 A High-Performance Data Visualization App
 Visualizes 10,000+ data points at 60 FPS with Line, Bar, Scatter, and Heatmap charts
 Built with Next.js 14+ (App Router) & TypeScript
 
 ## Features
 
-# Chart Type            Description
-LineChart            Real-time streaming line graph with smooth updates
-BarChart             Downsampled, high-density bar visualization
-ScatterPlot          Interactive, performant scatter points
-Heatmap              Dynamic real-time heat mapping
-
+| Chart Type   | Description                                      |
+|--------------|--------------------------------------------------|
+| LineChart    | Real-time streaming line graph with smooth updates |
+| BarChart     | Downsampled, high-density bar visualization      |
+| ScatterPlot  | Interactive, performant scatter points           |
+| Heatmap      | Dynamic real-time heat mapping                   |
 ## Controls
 
 FilterPanel – Dynamically adjust visible data points
@@ -31,9 +31,12 @@ Memory Usage
 
 
 
-### Setup Instructions
-# Clone the repository
+# Setup Instructions
+### Clone the repository
 git clone https://github.com/pranav5960/Flam
+
+
+
 cd performance-dashboard
 
 # Install dependencies
@@ -68,26 +71,25 @@ React DevTools
 
 
 
-BrowserStatusChrome (latest)
-Firefox
-Edge
-Safari
+BrowserStatusChrome (latest),
+Firefox,
+Edge,
+Safari.
 
-Fully responsive on Desktop, Tablet, and Mobile
 
 
 
 ## Next.js Optimizations (App Router)
 
-# Server Components
+### Server Components
 → DashboardPage fetches initial dataset server-side
-# Client Components
+### Client Components
 → Charts, controls, and DataProvider
-# Streaming & Suspense
+### Streaming & Suspense
 → Progressive loading for large datasets
 
 
 
 
-### Deployed link :
+# Deployed link :
 https://flam-plum.vercel.app/
